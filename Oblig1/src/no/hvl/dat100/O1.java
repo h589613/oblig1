@@ -34,7 +34,7 @@ public class O1 {
 			System.out.println("Trinnskatt: " + prosent0 * inntekt + " kr.");
 
 		} else {
-			System.out.println("Ugyldig input.");
+			showMessageDialog(null, "Ugyldig input.");
 		}
 
 	}

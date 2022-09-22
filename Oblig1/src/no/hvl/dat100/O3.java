@@ -10,7 +10,7 @@ public class O3 {
 
 		String inputTxt = showInputDialog("Gi et tall større enn 0:");
 
-		int n = parseInt(inputTxt);
+		long n = parseInt(inputTxt);
 		if (n <= 0) {
 			showMessageDialog(null, "Tallet må være større enn 0.");
 
